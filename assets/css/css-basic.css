@@ -1,0 +1,169 @@
+/* Universal  color = text color*/
+/*  { 
+    color: brown;
+ } */
+
+/* Element */
+/* h4 { 
+    background-color: aqua;
+} */
+
+/* class */
+/* .chapter-2{ 
+    color: white;
+    background-color: red;
+}*/
+
+/* ID */
+/* #chapter-one {
+    color: yellowgreen;
+} */
+
+/* Parent Child */
+/* .chapter-3 p {
+    background-color: yellow;
+}
+
+.part-2 #chapter-one {
+    color: blue;
+}
+
+.part-2 .chapter-2 p {
+    color: blue;
+} */
+
+/* color */
+/* .chapter-1 p {
+    background-color: rgb(10, 156, 149);
+}
+
+.part-2 .chapter-1 p {
+    background-color: rgb(10, 156, 149, 0.5);
+}
+/* alpha 4th number rgba */
+
+/* .chapter-2 p {
+    background-color: #da245b9f;
+} */ 
+
+/* font family */
+/* .part-1 .chapter-1 p {
+    font-family: serif;
+}
+
+.part-1 .chapter-2 p {
+    font-family: sans-serif;
+}
+
+.part-1 .chapter-3 p {
+    font-family: monospace;
+} */
+
+/* Font Size */
+/* #chapter-one {
+    font-size: 50px;
+}
+
+/* 1em & 100% =16px em & % - relative to the parent */
+/* .chapter-1 {
+    font-size: 20px;
+} */
+
+/* .chapter-1 p {
+    /* font-size: 200%;
+}    */
+
+
+/* Font weight */
+/* .bold {
+    font-weight: 900;
+} */
+
+/* bolder/lighter : relative to the parent */
+/* h4 {
+    font-weight: normal;
+} */
+
+/* .part-1 {
+    font-weight: 700;
+}
+
+.part-1 p {
+    font-weight: bolder;
+} */
+/* bolder = 800 Lighter=600 bold=700 normal=400 */
+
+/* Font Style */
+/* .part-1 .chapter-1 p {
+    font-family: sans-serif;
+    font-style: italic;
+} */
+
+/* Text Transform */
+/* .part-1 .chapter-1 p {
+    text-transform: uppercase;
+}
+
+.part-1 .chapter-2 p {
+    text-transform: lowercase;
+}
+
+.part-1 .chapter-3 p {
+    text-transform: capitalize;
+} */
+
+/* Text Decoration */
+/* h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: overline;
+}
+
+.part-1 .chapter-2 p {
+    text-decoration: line-through;
+}
+
+h1 a {
+    text-decoration: none;
+} */
+
+/* Text Align use only for block elements not for inline elements*/
+/* h1, h2 {
+    text-align: center;
+}
+
+.chapter {
+    text-align: right;
+} */
+
+/* ?Text Shadow */
+/* h1 {
+    text-shadow: 4px 3px 7px #868686;
+} */
+
+/* Text Indent  em= fontsize */
+/* .part-1 .chapter-1 p {
+    text-indent: 50px;
+}
+
+.part-1 .chapter-2 p {
+    text-indent: 5%;
+}
+
+.part-1 .chapter-3 p {
+    text-indent: 1em;
+} */
+
+/* Letter Spacing & Word Spacing */
+h1 {
+    text-align: center;
+    text-shadow: 4px 3px 7px #868686;
+    letter-spacing: 1.75px;
+    word-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+}

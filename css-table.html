@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        table {
+            empty-cells: hide;
+            /* show, hide */
+
+            border-collapse: separate;
+            /* separate, collapse */
+
+            border-spacing: 5px 10px;
+            /* 1 value: all sides */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Raye</td>
+                <td>raye@gmail.com</td>
+                <td>England</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td></td>
+                <td>Spain</td>
+            </tr>
+            <tr>
+                <td>William</td>
+                <td>will@gmail.com</td>
+                <td>Bolivia</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Login</h1>
+    
+    <!-- action => WHERE your data will be taken to when the user clicks submit  -->
+    <!-- method=> HOW the data will be submitted to the action -->
+    <form action="" method="">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required placeholder="username_123"><!--text input-->
+        <!-- for attribute in label and id of the input field should be the same -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required placeholder="enter 8-10 alphanumeric characters"><!--password input-->
+
+        <!-- required => the user has to put a value before the form could be submitted  -->
+        <!-- placeholder is used to display a sample text/instruction inside the input field -->
+
+        <!-- submit button - Option 1 -->
+        <input type="submit" value="Login" name="btn_login">
+        <!-- reset button =>removes the data inside the form-->
+        <input type="reset" value="Clear Form">
+    </form>
+
+    <hr>
+    <h1>Other details</h1>
+
+    <form action="" method="">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80"><!--number input-->
+        <!-- min sets the smallest value -->
+        <!-- max sets the biggest value -->
+        <br><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday"><!--date input-->
+       
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail@mail.com"><!--email input-->
+
+        <br><br>
+        <label for="bio">Bio / Description</label>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea><!--textarea-->
+
+        <br><br>
+        <p>Select your genre of music:</p>
+        
+        <input type="radio" name="music" id="pop" value="pop"><!--radio button-->
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+
+        <br><br>
+        <p>Select your hobby/ies:</p>
+
+        <input type="checkbox" name="hobby" id="cooking" value="cooking"><!--checkbox-->
+        <label for="cooking">Cooking</label>
+
+        <input type="checkbox" name="hobby" id="biking" value="biking">
+        <label for="biking">Biking</label>
+
+        <input type="checkbox" name="hobby" id="painting" value="painting">
+        <label for="painting">Painting</label>
+
+        <br><br>
+        <label for="device">Select you Device</label>
+        <select name="device" id="device"><!--dropdown list box-->
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+
+        <br><br>
+        <label for="device">Select you Device</label>
+        <select name="device" id="device" multiple><!--multiple select box-->
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+        
+        <br><br>
+        <label for="photo">Upload Photo</label>
+        <input type="file" name="photo" id="photo">
+        <!-- Submit Button - Option 2 -->
+        <br><br>
+        <button type="submit" name="btn_submit">Submit</button>
+    </form>
+</body>
+</html>

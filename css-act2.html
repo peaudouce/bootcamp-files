@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Activity 2</title>
+    <style>
+        .card {            
+            box-sizing: border-box;
+            border: 1px solid #fff;            
+        }
+
+        img {
+            width: 100%;
+            height: 800px;
+        }
+
+       
+        .profile1 {
+            width: 48%;         
+            float: left;
+            box-shadow: 5px 5px 5px 5px gray;
+            padding: 2px 2px 0 2px;
+            margin: 10px;                       
+        }
+
+        .profile2 {
+            width: 48%;            
+            float: right;
+            box-shadow: 5px 5px 5px 5px gray;
+            border-radius: 8px;
+            padding: 2px 2px 0 2px;
+            margin: 10px;           
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        p {
+            text-indent: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Profile Cards</h1>
+    
+    <div class="card">
+        <div class="profile1">
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="John">
+            <p class="name">John Doe</p>
+            <p>Architect and Designer</p>
+        </div>
+        <div class="profile2">
+            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jane">
+            <p class="name">Jane Doe</p>
+            <p>Chef</p>
+        </div>
+    </div>
+</body>
+</html>

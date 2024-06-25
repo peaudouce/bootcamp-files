@@ -1,0 +1,81 @@
+/* CSS RESET should always do*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: cadetblue;
+    border-left: 2px dashed blue;
+    border-right: 2px dotted blue;
+    padding: 20px 5px 50px 10px;
+    /* inside the box margin */
+    /* 1value: all sides */
+    /* 2 values: tb lr */
+    /* 3 values: t lr b */
+    /* 4 values: t r b l */
+
+    width: 300px;
+    margin-left: auto;
+}
+
+.box2 {
+    background-color: chartreuse;
+    border: 1px solid green;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    margin: 10px;
+    width: 300px;
+    margin-right: auto;
+}
+
+.box3 {
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: scroll;
+    /* hidden or scroll, What happens if the content will overflow its container */
+}
+
+.box2 h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-shadow {
+    border: 1px solid black;
+    box-shadow: 10px 15px 15px 5px coral;
+    /* box-shadow: h-offset v-offset blur spread color */
+}
+
+.border-box {
+    margin: 50px;
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: seagreen;
+    border: 10px solid gray;
+    box-sizing: border-box;
+}
+
+.content-box {
+    margin: 50px;
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: dodgerblue;
+    border: 10px solid gray;
+    box-sizing: content-box;
+}
+
+.center {
+    margin: 50px auto;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-color: goldenrod;
+}

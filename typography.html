@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Typography</title>
+</head>
+<body>
+    <!-- Headings => used to create a headline -->
+    <h1>Heading 1 - the most iportant headline</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6 - least important headline</h6>
+
+    <hr><!-- horizontal rule => adds a horizontal line on the page -->
+
+    <!-- paragraph -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Aspernatur assumenda quibusdam ut alias perferendis error fugiat cumque repudiandae, fuga eligendi nisi sit repellendus quia commodi vel voluptatem unde impedit atque.</p>
+
+    <!-- <br> line break +. the next output will be displayed on the next line -->
+    <hr>
+    <h1>HTML Links</h1>
+
+    <a href="https:/google.com">Click me to go to google</a>
+    <a href="https:/bing.com">Click me to go to bing</a>
+    <a href="https:/yahoo.com">Click me to go to yahoo</a>
+
+    <hr>
+    <h1>HTML List</h1>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>List 1</li><!--list item-->
+        <li>List 2</li>
+        <li>List 3</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ul>
+
+    <h1>Nested List</h1>
+    <ol>
+        <li>Fruits
+            <ul>
+                <li>Mango</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+        <li>Dessert
+            <ul>
+                <li>Cake</li>
+                <li>Candy</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+    <h1>HTML Images</h1>
+    <img src="test.jpg" alt="describes the image. will only show if the image fails to load">
+    <!-- image from internet -->
+    <img src="https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="tokyo tower" width="50%">
+    <!-- image form local computer -->
+    <img src="assets/images/andriyko-podilnyk-3a1NOxCBY10-unsplash.jpg" alt="rabbit" height="250px">
+    
+    <hr>
+    <h1>Table</h1>
+
+    <!-- border="1" adds borders to the table -->
+    <table border="1"><!--always start with the table element-->
+        <thead><!--groups heading contents-->
+            <tr><!--table row => arranges th / td in a row-->
+                <th>Heading 1</th><!--used to create a heading-->
+                <th>Heading 2</th>
+            </tr>
+        </thead>
+        <tbody><!--groups body contents-->
+            <tr>
+                <td>Data 1</td><!--table data => used to display data inside the table-->
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>Colspan</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Contact No.</th>
+                <!-- colspan defines how many columns the th/td will occupy -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bill</td>
+                <td>111-111</td>
+                <td>222-222</td>
+            </tr>
+            <tr>
+                <td>Steeve</td>
+                <td>333-333</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Rowspan</h1>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Steeve</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact No.</th>
+                <!-- rowspan defines how many rows th/td will occupy -->
+                <td>111-111</td>
+                <td>333-333</td>
+            </tr>
+            <tr>
+                <td>222-222</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

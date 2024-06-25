@@ -1,0 +1,73 @@
+/* 
+static -- default
+relative -- original position
+absolute -- relative to the parent
+fixed -- relative to the viewport
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: darkcyan;
+    padding: 20px 0;
+    /* FIXED */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.navigation h1 {
+    /* Relative static-default, relative-original position, absolute-relative tothe parent*/
+    position: relative;
+    left: 10%;
+    width: 90%;
+}
+
+.banner {
+    background-color: palevioletred;
+    height: 400px;
+    /* for absolute child */
+    position: relative;
+    margin-top: 67px;
+}
+
+.banner h2 {
+    z-index: 1;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: Impact;
+    letter-spacing: 3px;
+    /* Absolute */
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.main p {
+    font-size: 1.5em;
+    margin-bottom: 25px;    
+}
+
+form * {
+    display: block;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
